@@ -55,7 +55,11 @@ public class ProjectSpecificMethods extends AbstractTestNGCucumberTests {
 	
 	
 	
-	  @DataProvider(name="fetchData",parallel=true) public String[][] Data() throws
-	  IOException{ return ReadExcelData.readSheetData(fileName); }
+	  @DataProvider(name="fetchData",parallel=true) 
+	  public String[][] Data() throws IOException
+	  { 
+		  return ReadExcelData.readSheetData(fileName); 
+		  
+	  }
 	 
 }

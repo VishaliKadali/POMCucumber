@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.Runner">
+      <class name="org.testleaf.utils.DP">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
           <include name="tearDownClass"/>
+          <include name="createLead"/>
         </methods>
-      </class> <!-- runner.Runner -->
+      </class> <!-- org.testleaf.utils.DP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

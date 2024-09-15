@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = {
 		 "src/main/java/features/Login.feature", 
 		 "src/main/java/features/CreateLead.feature"  }, 
-			glue = "steps", 
+			glue = "steps",
 		 monochrome = true, publish = true)
 // dryRun=false)
 //					tags="not @sanity",

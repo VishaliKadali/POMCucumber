@@ -3,8 +3,9 @@
 <suite  name="Suite" parallel="classes">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.TC001_LoginPage"/>
-      <class name="testcases.TC002_CreateLead"/>
+     <!--  <class name="testcases.TC001_LoginPage"/>
+      <class name="testcases.TC002_CreateLead"/> -->
+      <class name="runner.Runner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
